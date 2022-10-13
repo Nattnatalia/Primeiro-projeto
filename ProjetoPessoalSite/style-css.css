@@ -1,0 +1,126 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../imagens/fund8.png);
+    margin: 0px;
+    margin-top: 0px;
+    
+    
+}
+.main-header{
+    background-image: url(../imagens/logo2.png);
+    background-repeat: no-repeat;
+    background-size: 23%;
+    margin:auto
+    
+    
+}
+.main-header img{
+    width: 350px;
+    left: 100px;
+    margin-top: 10px;
+    margin: left 80%;
+    padding-left: 4%;
+
+}
+
+.main-header h1{
+    text-align: center;
+    margin-top: 7%;
+    margin-right: 40%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 500%;
+    float: right;
+}
+.about-me{
+    background-image: url(../imagens/fund04.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.about-me:hover p {
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transition-property: all;
+    transition-delay: 0,5s;
+}
+
+.cropped1 {
+    width: 1000px; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
+}
+
+.cards img{
+    width: 400px;
+    -moz-transform: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+   
+}
+
+.card-1:hover img {
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.card-2:hover img {
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.card-3:hover img {
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.card-4:hover img {
+    -moz-transition: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.card-1, .card-2, .card-3, .card-4{
+    display: inline-block;
+    margin-left: 210px;
+    padding-left: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.titulo{
+   position:static;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+    
+    font-size: 200%;
+    
+}
+address{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-image: url(../imagens/fund04.png);
+}
+
+address input{
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 25x;
+}
+address a{
+    font-size: 30px;
+}
+
